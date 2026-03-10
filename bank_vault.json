@@ -1,6 +1,88 @@
 {
-  "owner": "Alice",
-  "balance": "1733.87500000",
-  "gold_balance": "0.0",
-  "interest_rate": "0.05"
+  "bank": {
+    "accounts": {
+      "Parv": {
+        "owner": "Parv",
+        "role": "Admin",
+        "balance": "146125.49166555604018279",
+        "gold_balance": "3.168",
+        "interest_rate": "0.05"
+      },
+      "Kushal": {
+        "owner": "Kushal",
+        "role": "Customer",
+        "balance": "0.0",
+        "gold_balance": "0.0",
+        "interest_rate": "0.05"
+      },
+      "Parth": {
+        "owner": "Parth",
+        "role": "Customer",
+        "balance": "9927107.4794817636542397744",
+        "gold_balance": "13.132",
+        "interest_rate": "0.05"
+      }
+    }
+  },
+  "total_token_supply": "21.3",
+  "physical_vault_grams": "1005.00",
+  "gold_price_inr": "6255.5498238434314202",
+  "history": [
+    {
+      "timestamp": "2026-03-10T11:22:40.059787400Z",
+      "owner": "Parv",
+      "action": "BUY",
+      "amount": "10",
+      "price_at_time": "6255.2521469349231584"
+    },
+    {
+      "timestamp": "2026-03-10T11:22:59.632633300Z",
+      "owner": "Parv",
+      "action": "SELL",
+      "amount": "5",
+      "price_at_time": "6256.6610171010722314"
+    },
+    {
+      "timestamp": "2026-03-10T11:31:36.576145800Z",
+      "owner": "Parv",
+      "action": "BUY",
+      "amount": "4",
+      "price_at_time": "6253.2948609845038651"
+    },
+    {
+      "timestamp": "2026-03-10T11:31:49.672951700Z",
+      "owner": "Parv",
+      "action": "SELL",
+      "amount": "2",
+      "price_at_time": "6253.3516922996866892"
+    },
+    {
+      "timestamp": "2026-03-10T11:33:38.990150400Z",
+      "owner": "Parv",
+      "action": "BUY",
+      "amount": "2.3",
+      "price_at_time": "6252.1879456979642327"
+    },
+    {
+      "timestamp": "2026-03-10T13:55:41.465988Z",
+      "owner": "Parth",
+      "action": "BUY",
+      "amount": "12",
+      "price_at_time": "6252.2910854342612188"
+    },
+    {
+      "timestamp": "2026-03-10T13:56:31.910255300Z",
+      "owner": "Kushal",
+      "action": "VAULT_REPLENISH",
+      "amount": "5",
+      "price_at_time": "6252.5142729619114989"
+    },
+    {
+      "timestamp": "2026-03-10T14:08:15.500408900Z",
+      "owner": "Parv",
+      "action": "TRANSFER TO Parth",
+      "amount": "1.132",
+      "price_at_time": "6254.8883846050034380"
+    }
+  ]
 }
